@@ -717,6 +717,6 @@ async function startall() { //this fucker is needed to just wait for the load ma
     overlay = true;
   }
 }
-startall(); //it all begins.
+//startall(); //it all begins.
 
 
