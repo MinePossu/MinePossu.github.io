@@ -1,0 +1,257 @@
+{
+  "tiles": {
+    "0": {
+      "color": "white"
+    },
+    "1": {
+      "color": "black"
+    },
+    "2": {
+      "image": "tiles/grass.png"
+    },
+    "3": {
+      "image": "tiles/water.png",
+      "walk": false
+    },
+    "4": {
+      "color": "gray"
+    },
+    "5": {
+      "image": "tiles/brick.png"
+    },
+    "6": {
+      "image": "tiles/flowers.png",
+      "rotation": 0
+    },
+    "7": {
+      "image": "tiles/stone.png",
+      "walk": false
+    }
+  },
+  "entities": {
+    "bot": {
+      "image": "entities/roomba1laser.png",
+      "type": "laser",
+      "rotation": 270,
+      "x": 1,
+      "y": 8
+    },
+    "fakeflag": {
+      "image": "tiles/flag.png",
+      "type": "goal",
+      "x": -2,
+      "y": 0
+    },
+    "laser": {
+      "image": "entities/laser.png",
+      "type": "laser",
+      "rotation": 90,
+      "x": -2,
+      "y": 1
+    },
+    "mirrorflat": {
+      "image": "entities/mirrorflatblock.png",
+      "type": "mirrorflat",
+      "rotation": 90,
+      "x": -2,
+      "y": 2
+    },
+    "mirror": {
+      "image": "entities/mirrorblock.png",
+      "type": "mirror",
+      "rotation": 0,
+      "x": -2,
+      "y": 3
+    },
+    "laserrc": {
+      "image": "entities/laserreceptacle.png",
+      "type": "tool",
+      "x": -2,
+      "y": 4
+    },
+    "beam": {
+      "image": "entities/beam.png",
+      "type": "beam",
+      "rotation": 0,
+      "walk": true,
+      "x": -2,
+      "y": 5
+    },
+    "mirrorp": {
+      "image": "entities/mirrorblockb.png",
+      "type": "mirror",
+      "walk": true,
+      "rotation": "0",
+      "x": 2,
+      "y": 4
+    },
+    "mirrorp_2": {
+      "image": "entities/mirrorblockb.png",
+      "type": "mirror",
+      "walk": true,
+      "rotation": "0",
+      "x": 7,
+      "y": 7
+    },
+    "mirrorp_3": {
+      "image": "entities/mirrorblockb.png",
+      "type": "mirror",
+      "walk": true,
+      "rotation": "90",
+      "x": 2,
+      "y": 7
+    },
+    "mirrorp_4": {
+      "image": "entities/mirrorblockb.png",
+      "type": "mirror",
+      "walk": true,
+      "rotation": "90",
+      "x": 7,
+      "y": 4
+    },
+    "mirrorflatp": {
+      "image": "entities/mirrorflatblockb.png",
+      "type": "mirrorflat",
+      "walk": true,
+      "rotation": "0",
+      "x": 3,
+      "y": 8
+    },
+    "laser1": {
+      "image": "entities/laser.png",
+      "type": "laser",
+      "rotation": 0,
+      "x": 5,
+      "y": 4
+    },
+    "flag": {
+      "image": "tiles/flag.png",
+      "type": "goal",
+      "x": 4,
+      "y": 5,
+      "rotation": "0"
+    }
+  },
+  "terrain": [
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      4,
+      4
+    ],
+    [
+      2,
+      2,
+      2,
+      6,
+      2,
+      2,
+      2,
+      2,
+      6,
+      4
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      6,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      6,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      6,
+      2
+    ]
+  ]
+}
